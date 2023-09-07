@@ -12,7 +12,6 @@ const Country = sequelize.define('country', {
     },
     currency: {
         type: DataTypes.STRING,
-        allowNull: false
     },
     flagUrl: {
         type: DataTypes.STRING,
